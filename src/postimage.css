@@ -1,0 +1,74 @@
+.addPhoto {
+    position: fixed;
+    color: #000;
+    top: 2vh;
+    right: 20vw;
+    cursor: pointer;
+}
+
+.photo {
+    width: 100vw;
+    height: 100vh;
+    color: blue;
+    opacity: 1;
+    overflow-y: hidden;
+    display: grid;
+    place-items: center;
+}
+
+.imageUpload {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress_bar {
+    width: 100%;
+}
+
+.sec {
+    display: flex;
+    margin: 5px 0px;
+    width: 100%;
+}
+
+.image {
+    display: flex;
+    margin-top: 10px;
+    border: 1px solid #FAFAFA;
+    width: 100%;
+}
+
+.caption {
+    width: 100%;
+    margin-top: 10px;
+    padding: 6px 6px;
+    border: 2px solid #dfdddd;
+    opacity: 1;
+    margin-bottom: 5px;
+}
+
+.progress {
+    height: 15px;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #FAFAFA;
+    background-color: #E5E5CF;
+    opacity: .6;
+}
+
+.upload {
+    width: 100%;
+    cursor: pointer;
+    color: black;
+    opacity: 1px;
+    margin-top: 4px;
+    padding: 6px 6px;
+    border-radius: 5px;
+}
+
+.upload:hover {
+    background-color: #111;
+    color: #FFF;
+}

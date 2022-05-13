@@ -1,0 +1,239 @@
+    * {
+        margin: 0;
+        background-color: #FAFAFA;
+    }
+    
+    .App {
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+        position: relative;
+    }
+    
+    li {
+        list-style: none;
+        text-decoration: none;
+    }
+    
+    ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    @media only screen and (max-width: 800px) {
+        .right_bar {
+            z-index: -5;
+        }
+        .left_bar {
+            margin-top: 30vh;
+        }
+    }
+    
+    @media only screen and (max-width: 534px) {
+        .app__header {
+            display: flex;
+            flex-direction: column;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        .login {
+            width: 100vw;
+            display: grid;
+        }
+        .search__input {
+            position: fixed;
+            top: 0px;
+            right: 2vw;
+        }
+        .signbutton {
+            margin: 0px 10px;
+        }
+        .left_bar {
+            margin-top: 10vh;
+        }
+    }
+    
+    .app__header {
+        display: flex;
+        height: 55px;
+        width: 100vw;
+        justify-content: space-between;
+        align-items: flex-start;
+        background-color: #FFFFFF;
+        border: 1px solid rgb(187, 183, 183);
+        flex-wrap: nowrap;
+        position: fixed;
+        top: 0;
+    }
+    
+    .app__headerImg {
+        color: #111;
+        margin-top: 8px;
+    }
+    
+    .search__input {
+        height: 35px;
+        align-items: center;
+        border-radius: 4px;
+        background-color: #FAFAFA;
+        border: 2px solid gainsboro;
+        margin-top: 10px;
+    }
+    
+    .search__input:hover {
+        border: 2px solid white;
+    }
+    
+    .right_bar {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 40vw;
+        position: fixed;
+        top: 8vh;
+        right: 0px;
+        bottom: 0px;
+        border: 1px solid rgb(226, 223, 223);
+    }
+    
+    .sign_up {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .login {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .form-header {
+        margin-bottom: 10px;
+    }
+    
+    .username2 {
+        width: 100%;
+        padding: 10px 10px;
+        border: 2px solid gray;
+        margin: 4px 0px;
+    }
+    
+    .email {
+        width: 100%;
+        padding: 10px 10px;
+        border: 2px solid gray;
+        margin: 4px 0px;
+    }
+    
+    .password {
+        width: 100%;
+        padding: 10px 10px;
+        border: 2px solid gray;
+        margin: 4px 0px;
+    }
+    
+    .resister {
+        width: 100%;
+        padding: 10px 10px;
+        margin: 10px 0px;
+        text-transform: uppercase;
+        text-align: center;
+        border: 2px solid gray;
+    }
+    
+    .signbutton {
+        width: 100px;
+        padding: 10px 10px;
+        margin: 10px 10px;
+        text-transform: uppercase;
+        text-align: center;
+        border: 2px solid gainsboro;
+        opacity: .7;
+        background-color: #000;
+        color: #FFF;
+    }
+    
+    .signbutton:hover {
+        opacity: 1;
+        background-color: #FFF;
+        cursor: pointer;
+        color: #000;
+    }
+    
+    .resister:hover {
+        width: 100%;
+        opacity: 1;
+        background-color: #000;
+        color: #FFF;
+        cursor: pointer;
+    }
+    
+    .post_chat {
+        width: 80px;
+        margin-left: 10px;
+        background-color: #E5E5CF;
+        color: #000;
+        opacity: .5px;
+        margin-top: 10px;
+        margin-left: 10px;
+        cursor: pointer;
+        padding: 6px 6px;
+        border-radius: 5px;
+        border: 1px solid #FAFAFA;
+        opacity: .6;
+    }
+    
+    .post_chat:hover {
+        background-color: blue;
+        color: #FAFAFA;
+        opacity: 1;
+    }
+    
+    .upload {
+        width: 80px;
+        cursor: pointer;
+        color: black;
+        opacity: .2px;
+        margin-top: 4px;
+        margin-left: 3px;
+        border-radius: 5px;
+    }
+    
+    .insta {
+        object-fit: contain;
+        width: 100%;
+        object-position: center;
+    }
+    
+    .instaauthor {
+        object-fit: contain;
+        width: 100%;
+        object-position: center;
+        height: 100px;
+        margin-top: 30px;
+    }
+    
+    .upload:hover {
+        background-color: #111;
+        color: #FFF;
+    }
+    
+    .closeicon {
+        color: #000;
+        cursor: pointer;
+    }
+    
+    .chaticon {
+        margin-top: 18px;
+    }
+    
+    .send {
+        margin-top: 8px;
+        margin-left: 20px;
+    }

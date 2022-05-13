@@ -1,0 +1,156 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    margin-top: 5vh;
+    margin-left: 15vw;
+    max-height: inherit;
+}
+
+@media only screen and (max-width: 800px) {
+    .post {
+        display: flex;
+        flex-direction: column;
+        width: 84vw;
+        margin-top: 5vh;
+        margin-left: 8vw;
+        margin-right: 8vw;
+        max-height: inherit;
+    }
+    .chat {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        margin-top: 5vh;
+        max-height: inherit;
+        overflow-x: hidden;
+    }
+    .comment {
+        width: 100vw;
+    }
+    .post__header {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 534px) {
+    .post {
+        display: flex;
+        flex-direction: column;
+        width: 96vw;
+        margin-top: 2vh;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        max-height: inherit;
+    }
+}
+
+.post__header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+
+.avatar__img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+}
+
+.username {
+    margin-left: 20px;
+}
+
+.caption_footer {
+    background-color: #fff;
+    margin: 10px 0;
+}
+
+.post_comment {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: #FFF;
+}
+
+.post_chat {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+}
+
+.post__img {
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+p {
+    margin: 0px;
+}
+
+.caption_margin {
+    margin-right: 20px;
+}
+
+.caption_footerst {
+    display: flex;
+    width: 100%;
+    flex: 1;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.caption_footerc {
+    display: flex;
+    width: 100%;
+}
+
+.person {
+    font-size: 50px;
+}
+
+.caption_right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.caption_marginst {
+    display: flex;
+    flex: 1;
+}
+
+.caption_marginsp {
+    display: flex;
+    flex: 0;
+    margin-bottom: 10px;
+    padding: 0 5px;
+}
+
+.caption_foo {
+    opacity: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.caption_mar {
+    color: black;
+    opacity: 1;
+    margin: 10px 5px;
+}
+
+.chat {
+    margin: 10vw 20vw;
+    background-color: #FFFFFF;
+}
